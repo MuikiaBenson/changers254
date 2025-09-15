@@ -61,7 +61,7 @@ Distributed under the MIT License. See [LICENSE](LICENSE.txt) for more informati
 [![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=for-the-badge&logo=Gmail&logoColor=white&link=mailto:p.kirillov2020@gmail.com)](mailto:p.kirillov2020@gmail.com)
 [![Linkedin](https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555)](https://www.linkedin.com/in/pavel-kirillov-dobkir)
 
-Project Link: [https://github.com/dobkir/photographers_portfolio](https://github.com/dobkir/photographers_portfolio)
+Project Link: [https://github.com/MuikiaBenson/changers254.git](https://github.com/MuikiaBenson/changers254.git)
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
