@@ -1,3 +1,3 @@
-const gallerySeasons = ['winter', 'spring', 'summer', 'autumn']
+const gallerySeasons = ['corporate', 'wedding', 'outdoor', 'creative']
 
 export default gallerySeasons;
