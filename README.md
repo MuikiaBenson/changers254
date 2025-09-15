@@ -31,7 +31,7 @@ The following features are implemented in this project:<br>
 ✔ Own custom video player for playing video shooting examples<br>
 
 <!-- LINK TO WEBSITE -->
-## [Come here](https://dobkir.github.io/photographers_portfolio/) to watch this website on your Web Browser
+## [Come here](https://github.com/MuikiaBenson/changers254.git) to watch this website on your Web Browser
 
 <!-- TOOLS -->
 ### Built with
