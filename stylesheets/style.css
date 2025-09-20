@@ -34,10 +34,8 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 html {
-  line-height: 1.15;
-  /* 1 */
-  -webkit-text-size-adjust: 100%;
-  /* 2 */
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
 }
 
 /* Sections
@@ -72,12 +70,9 @@ h1 {
  * 2. Show the overflow in Edge and IE.
  */
 hr {
-  box-sizing: content-box;
-  /* 1 */
-  height: 0;
-  /* 1 */
-  overflow: visible;
-  /* 2 */
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
 }
 
 /**
@@ -85,10 +80,8 @@ hr {
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 pre {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
 }
 
 /* Text-level semantics
@@ -105,12 +98,9 @@ a {
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
 abbr[title] {
-  border-bottom: none;
-  /* 1 */
-  text-decoration: underline;
-  /* 2 */
-  text-decoration: underline dotted;
-  /* 2 */
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
 }
 
 /**
@@ -128,10 +118,8 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
 }
 
 /**
@@ -181,14 +169,10 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: inherit;
-  /* 1 */
-  font-size: 100%;
-  /* 1 */
-  line-height: 1.15;
-  /* 1 */
-  margin: 0;
-  /* 2 */
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
 }
 
 /**
@@ -196,8 +180,7 @@ textarea {
  * 1. Show the overflow in Edge.
  */
 button,
-input {
-  /* 1 */
+input { /* 1 */
   overflow: visible;
 }
 
@@ -206,8 +189,7 @@ input {
  * 1. Remove the inheritance of text transform in Firefox.
  */
 button,
-select {
-  /* 1 */
+select { /* 1 */
   text-transform: none;
 }
 
@@ -256,18 +238,12 @@ fieldset {
  *    `fieldset` elements in all browsers.
  */
 legend {
-  box-sizing: border-box;
-  /* 1 */
-  color: inherit;
-  /* 2 */
-  display: table;
-  /* 1 */
-  max-width: 100%;
-  /* 1 */
-  padding: 0;
-  /* 3 */
-  white-space: normal;
-  /* 1 */
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
 }
 
 /**
@@ -290,10 +266,8 @@ textarea {
  */
 [type=checkbox],
 [type=radio] {
-  box-sizing: border-box;
-  /* 1 */
-  padding: 0;
-  /* 2 */
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
 }
 
 /**
@@ -309,10 +283,8 @@ textarea {
  * 2. Correct the outline style in Safari.
  */
 [type=search] {
-  -webkit-appearance: textfield;
-  /* 1 */
-  outline-offset: -2px;
-  /* 2 */
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
 }
 
 /**
@@ -327,10 +299,8 @@ textarea {
  * 2. Change font properties to `inherit` in Safari.
  */
 ::-webkit-file-upload-button {
-  -webkit-appearance: button;
-  /* 1 */
-  font: inherit;
-  /* 2 */
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
 }
 
 /* Interactive
@@ -524,7 +494,7 @@ figure {
 }
 @media (max-width: 768px) {
   .section-title,
-.last-section-title {
+  .last-section-title {
     font: normal 700 2rem/2.5rem "Merriweather-Bold";
   }
 }
@@ -568,18 +538,12 @@ figure {
  * 3. Leave some space on the edges, especially valuable on small screens
  */
 .container {
-  max-width: 1440px;
-  /* 1 */
-  width: 100%;
-  /* 1 */
-  margin-left: auto;
-  /* 2 */
-  margin-right: auto;
-  /* 2 */
-  padding-left: 20px;
-  /* 3 */
-  padding-right: 20px;
-  /* 3 */
+  max-width: 1440px; /* 1 */
+  width: 100%; /* 1 */
+  margin-left: auto; /* 2 */
+  margin-right: auto; /* 2 */
+  padding-left: 20px; /* 3 */
+  padding-right: 20px; /* 3 */
 }
 
 .section {
@@ -733,7 +697,7 @@ figure {
   background-color: #bdae82;
 }
 .logo:active {
-  background-color: #ab9861;
+  background-color: rgb(171.3769633508, 152.3717277487, 96.6230366492);
 }
 @media (max-width: 768px) {
   .logo {
@@ -760,7 +724,7 @@ figure {
   background-color: #bdae82;
 }
 .logo-light:active {
-  background-color: #ab9861;
+  background-color: rgb(171.3769633508, 152.3717277487, 96.6230366492);
 }
 
 .language-switcher {
@@ -806,7 +770,7 @@ figure {
   background-color: #bdae82;
 }
 .theme-switcher:active {
-  background-color: #ab9861;
+  background-color: rgb(171.3769633508, 152.3717277487, 96.6230366492);
 }
 @media (max-width: 768px) {
   .theme-switcher {
@@ -827,7 +791,7 @@ figure {
   background-color: #bdae82;
 }
 .theme-switcher-light:active {
-  background-color: #ab9861;
+  background-color: rgb(171.3769633508, 152.3717277487, 96.6230366492);
 }
 
 .nav {
@@ -907,33 +871,40 @@ figure {
   border-top: 5.63rem solid transparent;
   width: 100%;
   height: 1000px;
-  background: url(../assets/img/dark-theme/hero-main-photo.jpg) 50% 0 no-repeat;
+  background: url(../assets/img/dark-theme/hero-main-photo.jpg) center top no-repeat;
+  background-size: cover;
 }
 @media (max-width: 768px) {
   .container-hero {
     height: 680px;
-    background: url(../assets/img/dark-theme/hero-main-photo-media-small.jpg) 50% 0 no-repeat;
+    background: url(../assets/img/dark-theme/hero-main-photo-media-small.jpg) center top no-repeat;
+    background-size: cover;
   }
 }
 @media (max-width: 480px) {
   .container-hero {
     height: 680px;
-    background-size: auto 95%;
-    background-position: 70% 0;
+    background-size: cover;
+    background-position: center top;
   }
 }
 @media (max-width: 320px) {
   .container-hero {
-    background-position: 70% 0;
+    background-position: center top;
+    background-size: cover;
   }
 }
 
 .container-hero-light {
   background-image: url(../assets/img/light-theme/hero-main-photo-light.jpg);
+  background-size: cover;
+  background-position: center top;
 }
 @media (max-width: 768px) {
   .container-hero-light {
     background-image: url(../assets/img/light-theme/hero-main-photo-media-small-light.jpg);
+    background-size: cover;
+    background-position: center top;
   }
 }
 
@@ -1105,17 +1076,24 @@ figure {
 .gallery-image {
   max-width: 450px;
   max-height: 560px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
 }
 @media (max-width: 480px) {
   .gallery-image {
-    width: 90%;
-    height: 90%;
+    max-width: 90%;
+    max-height: 90%;
+    width: auto;
+    height: auto;
   }
 }
 @media (max-width: 320px) {
   .gallery-image {
-    width: 297px;
-    height: 370px;
+    max-width: 297px;
+    max-height: 370px;
+    width: auto;
+    height: auto;
   }
 }
 
@@ -1183,15 +1161,17 @@ figure {
   mask-image: url("../assets/svg/play-button-for-video-player-white.svg");
   -webkit-mask-size: cover;
   mask-size: cover;
-  border-radius: 50%;
-  border-color: transparent;
-  cursor: pointer;
 }
 .play-video-button:hover, .play-video-button:focus {
   background-color: #bdae82;
 }
 .play-video-button:active {
-  background-color: #ab9861;
+  background-color: rgb(171.3769633508, 152.3717277487, 96.6230366492);
+}
+.play-video-button {
+  border-radius: 50%;
+  border-color: transparent;
+  cursor: pointer;
 }
 .play-video-button:hover, .play-video-button:focus {
   transform: translateZ(0) scale(0.9);
@@ -1219,7 +1199,7 @@ figure {
   background-color: #bdae82;
 }
 .play-video-button-light:active {
-  background-color: #ab9861;
+  background-color: rgb(171.3769633508, 152.3717277487, 96.6230366492);
 }
 
 .video-viewer {
@@ -1578,7 +1558,7 @@ figure {
   background-color: #bdae82;
 }
 .instagram-link:active {
-  background-color: #ab9861;
+  background-color: rgb(171.3769633508, 152.3717277487, 96.6230366492);
 }
 
 .facebook-link {
@@ -1594,7 +1574,7 @@ figure {
   background-color: #bdae82;
 }
 .facebook-link:active {
-  background-color: #ab9861;
+  background-color: rgb(171.3769633508, 152.3717277487, 96.6230366492);
 }
 
 .twitter-link {
@@ -1610,7 +1590,7 @@ figure {
   background-color: #bdae82;
 }
 .twitter-link:active {
-  background-color: #ab9861;
+  background-color: rgb(171.3769633508, 152.3717277487, 96.6230366492);
 }
 
 .pinterest-link {
@@ -1626,7 +1606,7 @@ figure {
   background-color: #bdae82;
 }
 .pinterest-link:active {
-  background-color: #ab9861;
+  background-color: rgb(171.3769633508, 152.3717277487, 96.6230366492);
 }
 
 .social-link-light {

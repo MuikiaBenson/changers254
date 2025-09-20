@@ -2,8 +2,8 @@ import i18Obj from './translation.js'
 
 const languageSwitcher = document.querySelector('.language-switcher')
 const switcherEnglish = document.querySelector('.language-switcher_en')
-const switcherRussian = document.querySelector('.language-switcher_ru')
-const switchersArr = [switcherEnglish, switcherRussian]
+const switcherSwahili = document.querySelector('.language-switcher_sw')
+const switchersArr = [switcherEnglish, switcherSwahili]
 const defaultLanguage = 'en'
 const currentLanguage = localStorage.getItem('language') !== null ?
   localStorage.getItem('language') :
@@ -27,7 +27,6 @@ function changeActiveLanguageLink(language) {
   })
 }
 
-
 function getTranslate(language) {
   const wordsForTranslationArr = document.querySelectorAll('[data-i18]')
 
@@ -46,17 +45,17 @@ function getTranslate(language) {
   changeActiveLanguageLink(language)
 }
 
-
 function manualSwitchLanguage(event) {
   const target = event.target
 
   if (target === switcherEnglish) {
     getTranslate('en')
     localStorage.setItem('language', 'en')
-  } else if (target === switcherRussian) {
-    getTranslate('ru')
-    localStorage.setItem('language', 'ru')
+  } else if (target === switcherSwahili) {
+    getTranslate('sw')
+    localStorage.setItem('language', 'sw')
   }
 }
 
 languageSwitcher.addEventListener('click', manualSwitchLanguage)
+
